@@ -21,7 +21,7 @@ main {
 }
 
 /* For the profile image box and name */
-.side-box {
+header {
   display: flex;
   align-items: center;
   background-color: var(--primary-color);
@@ -32,7 +32,7 @@ main {
 }
 
 /* For the profile img and name */
-.side-box img {
+header img {
   border-radius: 9%;
   width: 85px;
   height: 85px;
@@ -41,7 +41,7 @@ main {
 }
 
 /* For my name */
-.side-box .name {
+header h1 {
   font-size: 20px;
   margin-right: auto;
   margin-left: 20px;
