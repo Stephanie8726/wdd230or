@@ -37,17 +37,18 @@ main {
   width: 85px;
   height: 85px;
   object-fit: cover;
-  margin-left: 170px;
+  margin-left: auto;
 }
 
 /* For my name */
 .side-box .name {
-  font-size: 15px;
-  margin-left: 10px;
+  font-size: 20px;
+  margin-right: auto;
+  margin-left: 20px;
 }
 
 /* For Home, Site Plan, Chamber, Byu-Idaho, Scripture text */
-header {
+.navigation {
   text-align: center;
   background-color: black;
   max-width: 760px;
@@ -68,20 +69,25 @@ header {
 /* For WDD 230: Web Frontend Development TEXT */
 main h2 {
   color: #333;
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
   border-bottom: 1px solid #cccccc;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 /* For weather information, Page Visits, etc. TEXT */
+.card {
+  margin-bottom: 10px;
+  border: 1px solid #c8d4e0;
+  border-radius: 2px;
+}
 .card p {
   text-align: center;
 }
 
 /* For learning activities whole... */
 .card h3 {
-  font-size: 15px;
+  font-size: 18px;
   color: #fff;
   text-align: center;
   margin-top: 1px;
@@ -89,25 +95,8 @@ main h2 {
   padding: 10px;
 }
 
-/* For doly layout/ jspen... TEXT */
-.card.learning-activities-box li a {
-  color: blue;
-  text-decoration: underline;
-  text-align-last: left;
-}
-
-/* Learning activities text */
-.learning-activities-box h3 {
-  font-size: 15px;
-  margin-bottom: 10px;
-  color: #fff;
-  margin: 0 auto;
-  padding: 10px;
-  margin-bottom: 17px;
-}
-
 /* For learning activities and information BOXES */
-.section-box {
+.card.learning-activities-box{
   margin-bottom: 10px;
   border: 1px solid #c8d4e0;
   border-radius: 2px;
@@ -117,15 +106,14 @@ footer {
   background-color: var(--primary-color);
   color: #fff;
   text-align: center;
-  bottom: 0;
   max-width: 760px;
   margin: 0 auto;
   padding: 20px;
 }
 
-footer p:first-child {
+footer p {
   font-size: 14px;
-  margin-top: 1px;
+  margin-top: 5px;
 }
 
 #lastModified {
