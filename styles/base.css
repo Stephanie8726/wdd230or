@@ -15,6 +15,7 @@ body {
 
 /* For everything in WDD230 */
 main {
+  display: flex;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
@@ -67,10 +68,10 @@ header h1 {
 }
 
 /* For WDD 230: Web Frontend Development TEXT */
-main h2 {
+title h2 {
   color: #333;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
   border-bottom: 1px solid #cccccc;
   padding-bottom: 5px;
 }
@@ -118,6 +119,7 @@ footer p {
 @media screen and (max-width: 600px) {
   main {
     padding: 10px;
+    display: flex;
    
   }
 
